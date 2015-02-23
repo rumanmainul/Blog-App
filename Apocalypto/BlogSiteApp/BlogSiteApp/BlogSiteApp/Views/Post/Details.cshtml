@@ -1,0 +1,397 @@
+﻿@using System.Text.RegularExpressions
+@using BlogSiteApp.Migrations
+@using BlogSiteApp.Models
+@using BlogSiteApp.Models.ViewModel
+@using Microsoft.Ajax.Utilities
+@model IEnumerable<BlogSiteApp.Models.Post>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from www.kingthemes.com/preview/casanova/html/blog.html by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 09 Apr 2014 02:21:50 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <title>Dreamers - Blog</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width">
+    <!-- google fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700" rel="stylesheet" type="text/css">
+
+    <!-- start stylesheets -->
+    <link rel="stylesheet" type="text/css" href="../../src/fontawesome/css/font-awesome.min.css">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../../css/core.css">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/custom.css">
+    <link rel="stylesheet" type="text/css" href="../../css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="../../src/tooltipster/tooltipster.css">
+    <link rel="stylesheet" type="text/css" href="../../src/swipebox/swipebox.css">
+    <link rel="stylesheet" type="text/css" href="../../src/rs-plugin/css/settings.css">
+    <!-- end stylesheets -->
+    <!-- start scripts -->
+    <script type="text/javascript" src="../../src/modernizr/modernizr.custom.js"></script>
+    <script type="text/javascript" src="../../src/jquery/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="../../src/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="../../src/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3.13&amp;sensor=false&amp;libraries=geometry&amp;1343675513"></script>
+    <!-- end scripts -->
+</head>
+<body>
+    <!-- start header -->
+    <header id="site-header" class="header section light">
+        <!-- start container -->
+        <div class="container">
+            <!-- start row -->
+            <div class="row">
+                <!-- start logo -->
+                <div id="logo" class="col-29">
+                    <h1 class="site-title"><a href="index-2.html"><img src="../../img/logo-dark.png" alt="casanova"></a></h1>
+                </div>
+                <!-- end logo -->
+                <!-- start header widgets -->
+                <div id="header-widgets" class="col-7">
+                    <!-- start social icons -->
+                    <nav id="header-social" class="text-right">
+                        <a href="#" class="icon circle tooltip" title="Find us on Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="icon circle tooltip" title="Follow us on Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="icon circle tooltip" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                    </nav>
+                    <!-- end social icons -->
+                    <!-- start site nav -->
+                    <nav id="site-nav" class="nav horizontal text-right">
+                        <ul class="dropdown">
+                            <li><a href="@Url.Action("Index", "Post")">Home</a></li>
+                            @{
+                                if (Session["Username"] != null)
+                                {
+                                    <li>
+                                        <a href="#">Wellcome! @Html.DisplayFor(modelitem => Session["Username"])</a>
+                                        <ul>
+                                            <li><a href="@Url.Action("Index", "Post/UserArticleList")">MyPost</a></li>
+                                            <li><a href="@Url.Action("Index", "Post/CreatePost")">Post</a></li>
+                                            <li><a href="@Url.Action("Index", "User/Logout")">Logout</a></li>
+                                        </ul>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li><a href="" type="button" data-toggle="modal" data-target="#myModal">Login</a></li>
+                                    <li><a href="@Url.Action("Index", "User/Index")">Registration</a></li>
+                                }
+                            }
+                        </ul>
+                    </nav>
+                    <!-- end site nav -->
+                </div>
+                <!-- end header widgets -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </header>
+    <!-- end header -->
+    <!-- start main -->
+    <main id="main">
+        <!-- start main content -->
+        <section id="main-content" class="section light">
+            <!-- start container -->
+            <div class="container">
+                <!-- start section content -->
+                <div class="section-content row">
+                    <!-- start primary -->
+                    <div id="primary" class="col-9">
+                        <!-- start entry 1 -->
+                        <div class="col-lg-12" id="srcid">
+
+                        </div>
+                        <div id="allpost">
+                              
+                            @foreach (var item in (List<PostView>)ViewData["GetThePost"])
+                            {
+                                <article class="entry">
+                                    <header class="entry-header">
+                                        <div class="entry-date">@Html.DisplayFor(modelItem => item.PostDate)</div>
+                                        <h2 class="entry-title">@Html.ActionLink(item.PostTitle, "Details", new { Id = item.PostId })</h2>
+                                        <div class="entry-meta">
+                                            <span>Posted by</span>
+                                            <span class="entry-author"><span>&dash; </span><i class="fa fa-user"></i> <a href="#">@Html.DisplayFor(modelItem => item.AuthorName)</a></span>
+                                           
+                                        </div>
+                                    </header>
+                                    <section class="entry-summary">
+                                        @{
+                                            string parameterValue = Regex.Replace(item.PostDescription, @"<[^>]*>", String.Empty);
+                                            parameterValue = parameterValue.Substring(0, 1);
+                                        }
+                                        <p>
+                                            <span class="dropcap">@Html.DisplayFor(modelItem => parameterValue)</span>
+                                           
+                                               @Html.Raw(item.PostDescription)
+                                        </p>
+                                    </section>
+                                </article>
+                                <input type="hidden" id="postid" value="@item.PostId">
+                            }
+
+                            <section id="comments">
+                                <header class="heading with-accent">
+                                    @{ List<CommentView> aComments = new List<CommentView>();
+                                        aComments = (List<CommentView>)ViewData["PostComment"];
+                                        int comment = aComments.Count(); }
+                                    <h3 class="comments-title">@Html.DisplayFor(modelitem=>comment) Comments</h3>
+                                </header>
+                                <ol class="comment-list">
+                                    <!-- comment 1 -->
+                                    @foreach (var item in (List<CommentView>)ViewData["PostComment"])
+                                    {
+                                        <li class="comment">
+                                            <article class="comment-body">
+                                                <footer class="comment-meta">
+                                                    <figure class="comment-author">
+                                                        @{ string startValue = item.PosterName.Substring(0,1); }
+                                                        <span class="dropcap">@Html.DisplayFor(modelItem => startValue)</span>
+                                                        <figcaption>
+                                                            <span class="fn"><a href="#">@Html.DisplayFor(modelitem => item.PosterName)</a></span>
+                                                            <span class="says">says:</span>
+                                                        </figcaption>
+                                                    </figure>
+                                                    <div class="comment-metadata">
+                                                        <div>@Html.DisplayFor(modelitem=>item.CommentDate)</div>
+                                                    </div>
+                                                </footer>
+                                                <div class="comment-content">
+                                                    <p>@Html.DisplayFor(modelitem => item.CommentDescription)</p>
+                                                </div>
+                                            </article>
+                                        </li>
+                                    }
+                                    
+                                </ol>
+                                @{
+                                    if (Session["Username"] != null)
+                                    {
+                                        <form id="commentform">
+                                            <input type="text" id="commentString" name="commentString" placeholder="Enter your comment">
+                                            <input type="submit" name="commentsubmit" id="commentsubmit" value="Comment" />
+                                        </form>
+                                    }
+                                    else
+                                    {
+                                        <div class="alert alert-info" role="alert"><p><i class="fa fa-comment"></i>Please Login to post your comment</p></div> 
+                                    }
+                                }
+                                
+                            </section>
+                        </div>
+
+                        <!-- end entry 1 -->
+                        <!-- start page navigation -->
+                        <!-- end page navigation -->
+                    </div>
+                    <!-- end primary -->
+                    <!-- start secondary -->
+                    <div id="secondary" class="col-27">
+                        <aside class="widget">
+                            <div class="content-header widget-header v3">
+                                <h4>Author other post</h4>
+                            </div>
+                            <ul class="post-list">
+                                @foreach (var item in (List<PostView>)ViewData["UserOtherPost"])
+                                {
+                                    <li class="clearfix">
+                                        <div class="details">
+                                            <div class="entry-date">@Html.DisplayFor(modelItem => item.PostTitle)</div>
+                                            @{
+                                                string parameterValue = Regex.Replace(item.PostDescription, @"<[^>]*>", String.Empty);
+                                                int endpoint = parameterValue.Count() / 2;
+                                                if (endpoint >= 100)
+                                                {
+                                                    endpoint = 90;
+                                                }
+                                            }
+                                            <h5 class="title">@Html.ActionLink(parameterValue.Substring(0, endpoint), "Details", new { Id = item.PostId, userid = item.AuthorId })</h5>
+                                            <div class="meta">@Html.DisplayFor(modelItem => item.PostDate)</div>
+                                        </div>
+                                    </li>
+                                }
+                            </ul>
+                        </aside>
+                        <!-- search twitter feed widget -->
+                        <aside class="widget">
+                            <div class="content-header widget-header v3">
+                                <h4>Twitter Feeds</h4>
+                            </div>
+
+                            <div class="tweets" data-username="rifk_i" data-count="2"></div>
+                        </aside>
+
+                        <!-- tags cloud widget -->
+                        <aside class="widget">
+                            <div class="content-header widget-header v3">
+                                <h4>Tag Cloud</h4>
+                            </div>
+                            <div class="tags clearfix">
+                                <a href="#" class="button primary small">animate</a>
+                                <a href="#" class="button primary small">apps</a>
+                                <a href="#" class="button primary small">design</a>
+                                <a href="#" class="button primary small">development</a>
+                                <a href="#" class="button primary small">entertainment</a>
+                                <a href="#" class="button primary small">ghost</a>
+                                <a href="#" class="button primary small">html</a>
+                                <a href="#" class="button primary small">photoshop</a>
+                                <a href="#" class="button primary small">themes</a>
+                                <a href="#" class="button primary small">wordpress</a>
+                            </div>
+                        </aside>
+                    </div>
+                    <!-- end secondary -->
+                </div>
+                <!-- end section content -->
+            </div>
+            <!-- end container -->
+        </section>
+        <!-- end main content -->
+    </main>
+    <!-- end main -->
+    <!-- start footer -->
+    <footer id="site-footer">
+
+        <!-- start footer bottom -->
+        <section id="footer-bottom" class="section dark">
+            <!-- start container -->
+            <div class="container">
+                <!-- start row -->
+                <div class="row">
+                    <!-- start copyright -->
+                    <div class="col-18">
+                        <p class="copyright">
+                            &copy; Apocalypto. Designed &amp; developed by <a href="#">Apocalypto</a>
+                        </p>
+                    </div>
+                    <!-- end copyright -->
+                    <!-- start footer nav -->
+                    <div class="col-18">
+
+                    </div>
+                    <!-- end footer nav -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </section>
+        <!-- end footer bottom -->
+    </footer>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">User Login</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" id="loginform">
+                        <div class="form-group">
+                            <label for="inputemail" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputemail" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputpassword" class="col-sm-2 control-label">Password</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputpassword" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default" id="submit">Sign in</button>
+                                <p id="loginalert"></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    @{ int id = Convert.ToInt32(Session["userid"]);}
+    <!-- end footer -->
+    <!-- place scripts at the end of body for better performance -->
+    <input type="hidden" id="userid" value="@id" />
+    
+    <script type="text/javascript" src="../../src/hoverdir/jquery.hoverdir.min.js"></script>
+    <script type="text/javascript" src="../../src/slicknav/jquery.slicknav.min.js"></script>
+    <script type="text/javascript" src="../../src/appear/jquery.appear.js"></script>
+    <script type="text/javascript" src="../../src/countup/countUp.min.js"></script>
+    <script type="text/javascript" src="../../src/twitter/jquery.tweet.js"></script>
+    <script type="text/javascript" src="../../src/sticky/jquery.sticky.js"></script>
+    <script type="text/javascript" src="../../js/casanova.menu.js"></script>
+    <script type="text/javascript" src="../../js/casanova.accordion.js"></script>
+    <script type="text/javascript" src="../../js/casanova.js"></script>
+    <script type="text/javascript" src="../../js/init.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function () {
+        $("#commentform").submit(function () {
+            var comment = $("#commentString").val();
+            var postid = $("#postid").val();
+            var userid = $("#userid").val();
+            var mydata = { comments: comment, postId: postid, userid: userid };
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("SaveComment", "Post")',
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(mydata),
+                dataType: "json",
+                success: function (data) {
+                    if (data == true) {
+                        
+                        $("#commentString").val("");
+                        $("#postid").val("");
+                        $("#userid").val("");
+                        location.reload();
+                    }
+                },
+            });
+            return false;
+        });
+
+        $("#loginform").submit(function () {
+            var name = $("#inputemail").val();
+            var pass = $("#inputpassword").val();
+            var mydata = { username: name, password: pass };
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("LoginUser", "User")',
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(mydata),
+                dataType: "json",
+                success: function (data) {
+                    if (data == true) {
+                        $('#myModal').modal('hide');
+                        $("#inputemail").val("");
+                        $("#inputpassword").val("");
+                        location.reload();
+
+                    } else {
+                        $("#loginalert").html("");
+                        $("#loginalert").append('<div class="alert alert-danger" role="alert">Email or Password not correct</div>');
+                    }
+                },
+            });
+            return false;
+        });
+    });
+    </script>
+
+
+</body>
+<!-- Mirrored from www.kingthemes.com/preview/casanova/html/blog.html by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 09 Apr 2014 02:22:05 GMT -->
+</html>

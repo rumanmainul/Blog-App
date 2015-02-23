@@ -1,0 +1,220 @@
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.dll.config
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.pdb
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\Antlr3.Runtime.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\EntityFramework.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\EntityFramework.SqlServer.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\Microsoft.Web.Infrastructure.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\Newtonsoft.Json.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\System.Web.Helpers.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\System.Web.Mvc.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\System.Web.Optimization.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\System.Web.Razor.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Deployment.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Razor.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\WebGrease.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\EntityFramework.xml
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\EntityFramework.SqlServer.xml
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\System.Web.Helpers.xml
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\System.Web.Mvc.xml
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\System.Web.Optimization.xml
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\System.Web.Razor.xml
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.xml
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Deployment.xml
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Razor.xml
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\Antlr3.Runtime.pdb
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\bin\Newtonsoft.Json.xml
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.csprojResolveAssemblyReference.cache
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.dll
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.pdb
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.Migrations.userRegistration.resources
+E:\ftfl c#\MVC\9-2-15\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.csproj.GenerateResource.Cache
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.dll.config
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.pdb
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\Antlr3.Runtime.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\EntityFramework.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\EntityFramework.SqlServer.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\Microsoft.Web.Infrastructure.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\Newtonsoft.Json.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\System.Web.Helpers.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\System.Web.Mvc.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\System.Web.Optimization.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\System.Web.Razor.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Deployment.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Razor.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\WebGrease.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\EntityFramework.xml
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\EntityFramework.SqlServer.xml
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\System.Web.Helpers.xml
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\System.Web.Mvc.xml
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\System.Web.Optimization.xml
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\System.Web.Razor.xml
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.xml
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Deployment.xml
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Razor.xml
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\Antlr3.Runtime.pdb
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\bin\Newtonsoft.Json.xml
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.csprojResolveAssemblyReference.cache
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.Migrations.userRegistration.resources
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.csproj.GenerateResource.Cache
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.dll
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.pdb
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.Migrations.post.resources
+E:\ftfl c#\MVC\9-2-15 Linq\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.Migrations.comment.resources
+E:\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.csprojResolveAssemblyReference.cache
+E:\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.dll
+E:\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.dll.config
+E:\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.dll
+E:\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.pdb
+E:\BlogSiteApp\BlogSiteApp\bin\Antlr3.Runtime.dll
+E:\BlogSiteApp\BlogSiteApp\bin\EntityFramework.dll
+E:\BlogSiteApp\BlogSiteApp\bin\EntityFramework.SqlServer.dll
+E:\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\BlogSiteApp\BlogSiteApp\bin\Microsoft.Web.Infrastructure.dll
+E:\BlogSiteApp\BlogSiteApp\bin\Newtonsoft.Json.dll
+E:\BlogSiteApp\BlogSiteApp\bin\System.Web.Helpers.dll
+E:\BlogSiteApp\BlogSiteApp\bin\System.Web.Mvc.dll
+E:\BlogSiteApp\BlogSiteApp\bin\System.Web.Optimization.dll
+E:\BlogSiteApp\BlogSiteApp\bin\System.Web.Razor.dll
+E:\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Deployment.dll
+E:\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.dll
+E:\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Razor.dll
+E:\BlogSiteApp\BlogSiteApp\bin\WebGrease.dll
+E:\BlogSiteApp\BlogSiteApp\bin\EntityFramework.xml
+E:\BlogSiteApp\BlogSiteApp\bin\EntityFramework.SqlServer.xml
+E:\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\BlogSiteApp\BlogSiteApp\bin\System.Web.Helpers.xml
+E:\BlogSiteApp\BlogSiteApp\bin\System.Web.Mvc.xml
+E:\BlogSiteApp\BlogSiteApp\bin\System.Web.Optimization.xml
+E:\BlogSiteApp\BlogSiteApp\bin\System.Web.Razor.xml
+E:\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.xml
+E:\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Deployment.xml
+E:\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Razor.xml
+E:\BlogSiteApp\BlogSiteApp\bin\Antlr3.Runtime.pdb
+E:\BlogSiteApp\BlogSiteApp\bin\Newtonsoft.Json.xml
+E:\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.pdb
+E:\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.Migrations.verson1.resources
+E:\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.csproj.GenerateResource.Cache
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.dll.config
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.pdb
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Antlr3.Runtime.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\EntityFramework.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\EntityFramework.SqlServer.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Microsoft.Web.Infrastructure.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Newtonsoft.Json.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Helpers.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Mvc.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Optimization.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Razor.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Deployment.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Razor.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\WebGrease.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\EntityFramework.xml
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\EntityFramework.SqlServer.xml
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Helpers.xml
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Mvc.xml
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Optimization.xml
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Razor.xml
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.xml
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Deployment.xml
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Razor.xml
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Antlr3.Runtime.pdb
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Newtonsoft.Json.xml
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.csprojResolveAssemblyReference.cache
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.dll
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.pdb
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.dll.config
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.pdb
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Antlr3.Runtime.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\EntityFramework.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\EntityFramework.SqlServer.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Microsoft.Web.Infrastructure.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Newtonsoft.Json.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Helpers.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Mvc.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Optimization.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Razor.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Deployment.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Razor.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\WebGrease.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\EntityFramework.xml
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\EntityFramework.SqlServer.xml
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Helpers.xml
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Mvc.xml
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Optimization.xml
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Razor.xml
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.xml
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Deployment.xml
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Razor.xml
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Antlr3.Runtime.pdb
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Newtonsoft.Json.xml
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.csprojResolveAssemblyReference.cache
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.dll
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.pdb
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.Migrations.version1.resources
+E:\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.csproj.GenerateResource.Cache
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.Migrations.version1.resources
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.csproj.GenerateResource.Cache
+E:\ftfl c#\MVC\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.Migrations.version2.resources
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.dll.config
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\BlogSiteApp.pdb
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Antlr3.Runtime.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\EntityFramework.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\EntityFramework.SqlServer.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Microsoft.Web.Infrastructure.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Newtonsoft.Json.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Helpers.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Mvc.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Optimization.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Razor.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Deployment.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Razor.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\WebGrease.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\EntityFramework.xml
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\EntityFramework.SqlServer.xml
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Helpers.xml
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Mvc.xml
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Optimization.xml
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.Razor.xml
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.xml
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Deployment.xml
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\System.Web.WebPages.Razor.xml
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Antlr3.Runtime.pdb
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\bin\Newtonsoft.Json.xml
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.csprojResolveAssemblyReference.cache
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.Migrations.version1.resources
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.Migrations.version2.resources
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.csproj.GenerateResource.Cache
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.dll
+E:\ftfl c#\MVC\Apocalypto\BlogSiteApp\BlogSiteApp\BlogSiteApp\obj\Debug\BlogSiteApp.pdb

@@ -1,0 +1,102 @@
+/*
+ * Custom section background
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+ .section-bg-1{
+    background-image: url('../assets/images/bg-1.jpg');
+    background-size: cover;
+}
+.section-bg-2{
+    background-image: url('../assets/images/bg-2.jpg');
+    background-size: cover;
+}
+.section-bg-gray,
+.page-title{
+    background-color: #F7F7F7;
+}
+
+
+/*
+ * Custom color scheme
+ * primary color: #3498DB;
+ * secondary color: #3486BC;
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Primary color */
+a, 
+.icon.primary,
+#site-nav > ul > li:not(.over) > a:hover,
+.light .entry-date,
+.light .entry-title a:hover,
+.light .entry-meta a:hover,
+.light .project-filter .active a,
+.light .project-filter a:hover,
+.project .project-thumb figcaption .icon:hover,
+.pricing .plan-price{
+    color: #3498DB;
+}
+ 
+.content-header.v3:after,
+.button.primary,
+.icon.circle.primary,
+.icon.square.primary,
+.breadcrumbs,
+.pagenavi a:hover,
+.pagenavi span.current,
+.project .project-thumb figcaption,
+.progress-bar .bar div,
+.tabs.vertical .tabnav .active a{
+    background-color: #3498DB;
+}
+
+input[type="text"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="url"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus,
+.button.primary,
+.icon.circle.primary,
+.icon.square.primary,
+.pagenavi a:hover,
+.pagenavi span.current,
+.tabs.vertical .tabnav .active a,
+.pricing .plan.recommended{
+    border-color: #3498DB;
+}
+
+.tabs.vertical .tabnav .active a:after{
+    border-left-color: #3498DB;;
+}
+
+/* Secondary color */
+a:active, a:hover,
+.light .entry-meta a:hover,
+.light .masonry-entries .entry .entry-title a:hover,
+.light .post-list .details .title a:hover,
+.light .entry-meta a:hover,
+.light .project .project-title a:hover{
+    color: #3486BC;
+}
+
+.button.primary:hover,
+.button.primary:focus,
+.button.primary:active,
+.button.primary.disabled,
+.button.primary[disabled],
+.icon.circle.primary:hover,
+.icon.square.primary:hover{
+    background-color: #3486BC;
+}
+
+.button.primary:hover,
+.button.primary:focus,
+.button.primary:active,
+.button.primary.disabled,
+.button.primary[disabled],
+.icon.circle.primary:hover,
+.icon.square.primary:hover{
+    border-color: #3486BC;
+}
